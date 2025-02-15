@@ -11,7 +11,7 @@
     ":timezone(America/Toronto)",
     "github>haraldkoch/renovate-config:autoMergeDocker",
     "github>haraldkoch/renovate-config:autoMergeGithubActions",
-    "github>haraldkoch/renovate-config:customManagers",
+    "github>haraldkoch/renovate-config:customManagers.json5",
     "github>haraldkoch/renovate-config:labels",
     "github>haraldkoch/renovate-config:semanticCommits"
   ],
