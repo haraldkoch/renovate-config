@@ -4,7 +4,6 @@
     "config:recommended",
     "docker:enableMajor",
     "mergeConfidence:all-badges",
-    ":automergeBranch",
     ":dependencyDashboard",
     ":disableRateLimiting",
     ":semanticCommits",
