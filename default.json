@@ -16,6 +16,7 @@
   ],
   "dependencyDashboardTitle": "Renovate Dashboard 🐟",
   "suppressNotifications": ["prEditedNotification", "prIgnoreNotification"],
+  "commitBodyTable": true,
   "rebaseWhen": "auto",
   "platformCommit": "enabled"
 }
