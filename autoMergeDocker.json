@@ -5,7 +5,7 @@
       "description": ["Auto-merge container digests updates for trusted containers"],
       "matchDatasources": ["docker"],
       "automerge": true,
-      "automergeType": "branch",
+      "automergeType": "pr",
       "matchUpdateTypes": ["digest"],
       "matchPackagePatterns": ["ghcr.io/bjw-s", "ghcr.io/bjw-s-labs", "ghcr.io/onedr0p", "ghcr.io/haraldkoch"]
     }
