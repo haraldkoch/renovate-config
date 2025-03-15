@@ -8,6 +8,7 @@
     ":disableRateLimiting",
     ":semanticCommits",
     ":timezone(America/Toronto)",
+    "helpers:pinGitHubActionDigests",
     "github>haraldkoch/renovate-config:autoMergeDocker",
     "github>haraldkoch/renovate-config:autoMergeGithubActions",
     "github>haraldkoch/renovate-config:customManagers.json5",
