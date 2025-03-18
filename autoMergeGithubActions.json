@@ -5,9 +5,9 @@
       "description": ["Auto-merge trusted GitHub Actions"],
       "matchManagers": ["github-actions"],
       "automerge": true,
-      "automergeType": "pr",
+      "automergeType": "branch",
       "matchUpdateTypes": ["minor", "patch", "digest"],
-      "matchPackageNames": ["/^actions\\//", "/^cloudflare\\//", "/^renovatebot\\//"],
+      "minimumReleaseAge: "3 days",
       "ignoreTests": true
     }
   ]
