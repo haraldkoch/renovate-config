@@ -12,5 +12,8 @@
   ],
   "dependencyDashboardTitle": "Renovate Dashboard 🐟",
   "commitBodyTable": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "platformCommit": "enabled"
 }
