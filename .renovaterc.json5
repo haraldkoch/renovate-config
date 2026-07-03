@@ -1,4 +1,15 @@
 {
   $schema: "https://docs.renovatebot.com/renovate-schema.json",
   extends: ["local>haraldkoch/renovate-config"],
+  packageRules: [
+    {
+      description: "Auto-merge Renovate",
+      matchManagers: ["mise"],
+      matchPackageNames: ["/renovate/"],
+      automerge: true,
+      automergeType: "branch",
+      matchUpdateTypes: ["minor", "patch", "digest"],
+      ignoreTests: true,
+    },
+  ],
 }
