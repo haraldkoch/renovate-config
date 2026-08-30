@@ -8,7 +8,8 @@
     ":semanticCommits",
     ":timezone(America/Toronto)",
     "github>haraldkoch/renovate-config:autoMergeGithubActions.json5",
-    "github>haraldkoch/renovate-config:labels.json5"
+    "github>haraldkoch/renovate-config:labels.json5",
+    "github>haraldkoch/renovate-config:gcr-mirror.json5"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard 🐟",
   "commitBodyTable": true,
