@@ -3,7 +3,7 @@
 lefthook = "2.1.14"
 node = "26.8.2"
 oxfmt = "0.67.0"
-"npm:renovate" = "44.86.0"
+"npm:renovate" = "44.88.0"
 shellcheck = "0.11.0"
 zizmor = "1.30.1"
 
