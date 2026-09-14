@@ -1,6 +1,6 @@
 # https://mise.jdx.dev/configuration.html
 [tools]
-lefthook = "2.1.12"
+lefthook = "2.1.14"
 node = "26.8.2"
 oxfmt = "0.67.0"
 "npm:renovate" = "44.86.0"
